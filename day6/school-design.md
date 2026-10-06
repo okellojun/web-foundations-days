@@ -45,4 +45,4 @@ ON enrolments(courseId);
 ## SQL or NoSQL
 
 
-For an academic database management system, SQL is the optimal choice because it naturally handles the clear, structured relationships between students, courses, and grades using tables and joins. It ensures strict data integrity, schema enforcement, and ACID compliance (via primary/foreign keys, unique constraints, and transactions) to protect against issues like double enrolments or data duplication, making straightforward work of aggregations and queries that NoSQL databases would struggle to maintain efficiently.
+For an academic database management system, I'd prefer SQL because it naturally handles the clear, structured relationships between students, courses, and grades using tables and joins. It ensures strict data integrity, schema enforcement, and ACID compliance (via primary/foreign keys, unique constraints, and transactions) to protect against issues like double enrolments or data duplication, making straightforward work of aggregations and queries that NoSQL databases would struggle to maintain efficiently.
